@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, li, ul, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.statusConnection {
+    color: mediumseagreen;
+    text-transform: uppercase;
+    font: bold 18px Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.form .sendMessage {
+   width: 80%;
+   padding: 10px;
+   background: #e0e0e0;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+}
+
+.messages li {
+    margin-bottom: 10px;
+    color: mediumseagreen;
+}
